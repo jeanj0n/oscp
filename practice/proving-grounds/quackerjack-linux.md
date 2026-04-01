@@ -120,7 +120,7 @@ Add user or dump admin creds
 python3 48208.py https://192.168.146.57:8081
 ```
 
-{% embed url="https://www.exploit-db.com/exploits/48241" fullWidth="true" %}
+{% embed url="https://www.exploit-db.com/exploits/48241" fullWidth="false" %}
 Authenticate RCE
 {% endembed %}
 
