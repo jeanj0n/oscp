@@ -23,10 +23,10 @@
 
 ## Methodology
 
-* [Fundamentals](methodology/fundamentals/README.md)
-  * [Pivoting](methodology/fundamentals/pivoting.md)
-* [Enumeration](methodology/enumeration/README.md)
-  * [Scripts](methodology/enumeration/scripts.md)
+* [Fundamentals](methodology/fundamentals.md)
+* [Pivoting](methodology/pivoting.md)
+* [Enumeration](methodology/enumeration.md)
+* [Scripts](methodology/scripts.md)
 * [Linux PrivEsc](methodology/linux-privesc.md)
 * [Windows PrivEsc](methodology/windows-privesc.md)
 * [AD PrivEsc](methodology/ad-privesc/README.md)
