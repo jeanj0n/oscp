@@ -10,7 +10,7 @@ Use cURL if content displayed on webpage is messy (no spaces or required tabs fo
 {% endhint %}
 
 * etc/passwd -> user SSH keys \[clock algo from nmap] in `home/[user]/.ssh/id_rsa`\
-  `(`SSH key algo used can be determined from nmap scan need not always be RSA eg. ECDSA)
+  (SSH key algo used can be determined from nmap scan need not always be RSA eg. ECDSA)
 *   **Apache webroot** -> \[htaccess and htpasswd?] any config files retrieved will need this first<br>
 
     ```
