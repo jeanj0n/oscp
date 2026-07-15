@@ -2,10 +2,6 @@
 
 * [Intro](README.md)
 
-## Buffer Overflow
-
-* [Buffer Overflow Prep](buffer-overflow/buffer-overflow-prep.md)
-
 ## WEB
 
 * [SQLi](web/sqli.md)
@@ -45,3 +41,7 @@
   * [Quackerjack \[Linux\]](practice/proving-grounds/quackerjack-linux.md)
   * [Billyboss \[Windows\]](practice/proving-grounds/billyboss-windows.md)
   * [Marketing \[Linux\]](practice/proving-grounds/marketing-linux.md)
+
+## Buffer Overflow
+
+* [Buffer Overflow Prep](buffer-overflow/buffer-overflow-prep.md)
